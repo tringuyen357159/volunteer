@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+.bg-container{
+    padding: 50px 110px 50px 140px;
+}
+.header-donate{
+    display: flex;
+    justify-content: space-between;
+}
+.header-donate .header-left{
+    width: 65%;
+}
+.header-donate .header-left img {
+    max-width: 100%;
+    height: auto;
+}
+.header-donate .header-right{
+    width: 30%;
+}
+.header-donate .header-right h1{
+    font-size: 32px;
+    word-break: break-word;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.donation{
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.donors{
+    margin-right: 40px;
+}
+.donation .number-donate{
+    font-size: 26px;
+    font-weight: 700;
+}
+.donation .name-donate{
+    font-size: 18px;
+    line-height: 1.2;
+}
+.link-donate {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.link-donate h3{
+    padding: 15px 0;
+}
+.link-donate p{
+    padding-bottom: 10px;
+    font-weight: 600;
+
+}
+.header-manager h1{
+    margin-bottom: 30px;
+}
+.header-right p{
+    padding: 10px 0;
+    font-size: 17px;
+}
+@media all and (max-width: 767px){
+    .bg-container{
+        padding: 50px ;
+    }
+    .header-donate{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-donate .header-left{
+        width: 100%;
+    }
+    .header-donate .header-right{
+        width: 100%;
+    }
+}
+

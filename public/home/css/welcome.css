@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero {
+    position: relative;
+    width: 100%;
+    min-height: 85vh;
+}
+#hero #heroVideoBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    display: inline-block;
+}
+#hero #heroContent {
+    text-align: center;
+    padding-top: 200px;
+}
+#hero #heroContent h1{
+    font-size: 110px;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: -.01em;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(48, 235, 11);
+}
+#hero #heroContent h6{
+    font-size: 20px;
+    line-height: 1.4em;
+    text-transform: none;
+    letter-spacing: .04em;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+li::marker{
+    font-weight: 550;
+}
+.content-welcome h4{
+    /* color: rgb(48, 235, 11); */
+    font-weight: 550;
+
+}
+.title-about{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 25px;
+    color: #222222;
+}
+.content-welcome >ul{
+    list-style-type: upper-roman;
+    font-size: 16px;
+}
+.content-welcome >ul>li{
+    margin-left: 10px;
+}
+.content-welcome p{
+    line-height: 2;
+}
+.content-welcome .link-yt{
+    text-align: center;
+}
+.list-sub{
+    list-style-type: disc;
+}
+.list-sub >li{
+    margin-left: 25px;
+}

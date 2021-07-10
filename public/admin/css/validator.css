@@ -1,0 +1,25 @@
+.form-group.invalid .form-control {
+    border-color: #f5193d;
+  }
+
+  .form-group.invalid .form-message {
+    color: #f5193d;
+  }
+  .form-group .error {
+    color: #f5193d;
+  }
+  /* .quanlity{
+    display: none;
+}
+
+#checkkk:focus ~ .quanlity.abc{
+    display: block;
+ } */
+ .abc{
+     display: block !important;
+     outline: none;
+     border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+ }
+

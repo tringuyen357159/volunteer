@@ -1,0 +1,11 @@
+#selectedColumn tbody td{
+    max-width: 250px;
+}
+#selectedColumn tbody td p
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+}

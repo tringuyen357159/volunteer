@@ -1,0 +1,24 @@
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group .error {
+    color: #f5193d;
+}
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-group .col-sm-10.invalid .form-message{
+    color: #f33a58;
+}
+
+.form-group .col-sm-10.invalid .form-control{
+    color: #f33a58;
+}

@@ -1,0 +1,259 @@
+html{
+    font-family: "Poppins",sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 300px 150px 300px;
+    background: url(../img/19817-colorful-wallpaper-3000-x-1680.png) no-repeat scroll top center / cover;
+}
+.signup{
+    padding: 20px 75px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.login{
+    margin-top: 50px;
+    padding: 50px 75px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 30px;
+}
+.signup-heading,
+.login-heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #a7e245;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.login-heading{
+    margin-bottom: 20px;
+}
+.signup-social{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center  ;
+}
+.signup-social-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 30px;
+    color: #6d962b;
+}
+.signup-social-icon:hover{
+    background-color: #a7e245;
+}
+.signup-social-icon:hover i{
+    color: #fff;
+}
+.signup-social-icon i{
+    padding-top: 12px;
+}
+.signup-or{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    position: relative;
+}
+.signup-or span{
+    padding: 10px 30px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.signup-or::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.signup-label,
+.login-label{
+    color: #373941;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.login-input{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: #f2f3f5;
+    outline: none;
+    border: 0;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.signup-input
+{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: #f2f3f5;
+    outline: none;
+    border: 0;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.signup-submit,
+.login-submit{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border: 0;
+    border-radius: 14px;
+    outline: none;
+    width: 100%;
+    background-color: #82c91e;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+    font-weight: 600px;
+    margin-top: 10px;
+    border: 1px solid #82c91e;
+}
+.signup-submit:hover,
+.login-submit:hover{
+    background-color: transparent;
+    color: #82c91e;
+}
+.signup-already{
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    margin-top: 10px;
+}
+.signup-link{
+    text-decoration: none;
+    color: #2979ff;
+}
+.signup-link:hover,
+.login-link:hover{
+    border-bottom: solid #2979ff;
+}
+.box{
+    margin-bottom: 10px;
+}
+#birthday{
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #999;
+}
+.contents-signup{
+    display: flex;
+}
+.contents-left-signup,
+.contents-right-signup{
+    width: 100%;
+}
+.contents-left-signup{
+    display: flex;
+    justify-content: center;
+}
+.content-signup{
+    width: 100%;
+    padding: 5px 30px;
+}
+.avatar-upload {
+    position: relative;
+    /* max-width: 205px; */
+    margin: 80px 0 50px 0;
+}
+.avatar-upload .avatar-edit {
+    position: absolute;
+    right: 60px;
+    z-index: 1;
+    top: 10px;
+}
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+.avatar-upload .avatar-edit input + label {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+.avatar-upload .avatar-preview {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #f8f8f8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* @media all and (max-width: 990px) {
+    .contents-signup{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+@media all and (max-width: 1200px) {
+    .wrapper{
+        padding: 0;
+    }
+    .signup{
+        padding: 0;
+    }
+    .contents-signup{
+        display: flex;
+        flex-direction: column;
+    }
+}

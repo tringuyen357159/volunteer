@@ -1,0 +1,37 @@
+.content-signup.invalid .form-control {
+    border-color: #f5193d;
+  }
+
+  .content-signup.invalid .form-message {
+    color: #f5193d;
+  }
+  .content-signup .error {
+    color: #f5193d;
+  }
+
+  .form-group.invalid .form-control {
+    border-color: #f5193d;
+  }
+
+  .form-group.invalid .form-message {
+    color: #f5193d;
+  }
+  .form-group .error {
+    color: #f5193d;
+  }
+
+  .avatar-upload .error{
+    color: #f5193d;
+  }
+
+
+.img{
+    height: 100%;
+}
+.d-notnone{
+    display: block !important;
+    outline: none;
+   border-radius: 4px;
+   padding: 6px 12px;
+}
+
